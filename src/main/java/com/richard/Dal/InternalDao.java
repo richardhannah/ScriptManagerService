@@ -1,9 +1,14 @@
-package com.richard.Dal;/**
- * Created by highl on 05/03/2017.
- */
+package com.richard.Dal;
+
+import com.richard.Domain.ScriptList;
 
 /**
- * created by highl
+ * Created by highl on 05/03/2017.
  */
-public class InternalDao {
+public interface InternalDao {
+
+
+    ScriptList fetchScriptList();
+
+
 }
